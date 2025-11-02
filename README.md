@@ -22,7 +22,12 @@ Monitor Claude with Pro plan using dark theme and New York timezone
 claude-monitor --plan pro --theme dark --timezone "America/New_York"
 ```
 
-PyBackup Tool, Backup And Versioning using CLI 
+PyBackup Tool, Backup And Versioning using CLI
 ```
 pip install PyBackup-Tool
+```
+
+Connect Playwright MCP to Claude
+```
+claude mcp add --transport stdio playwright -- npx -y @executeautomation/playwright-mcp-server
 ```
